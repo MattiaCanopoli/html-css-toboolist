@@ -61,6 +61,14 @@ main {
 
 /*TASK SECTION*/
 
+.container {
+    padding: 25px 50px;
+}
+
+.task-sect-container {
+    margin-bottom: 25px;
+}
+
 h2 {
     display: inline-block;
 }
@@ -86,4 +94,47 @@ ul {
 
 .cross {
     color: red;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/*TAGS*/
+
+.tag {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.editorial {
+    background-color: #09a9ed;
+
+}
+
+.q1-goals {
+    background-color: #ab5de6;
+
+}
+
+.recruiting {
+    background-color: #2cc6ab
+}
+
+.mobile {
+    background-color: #ff9b00;
+}
+
+.website {
+    background-color: #ec4a9d;
+}
+
+.sales {
+    background-color: #a3d116;
 }
