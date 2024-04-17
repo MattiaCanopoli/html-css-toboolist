@@ -21,6 +21,11 @@ body {
     padding-left: 50px;
 }
 
+.margin-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .w-70 {
     width: 70%;
 }
@@ -40,9 +45,10 @@ main {
 
 button {
     border: none;
-    padding: 5px;
+    padding: 8px;
     border-radius: 6px;
     margin: 13px 0;
+    font-weight: bold;
 }
 
 .task-button {
@@ -51,10 +57,12 @@ button {
 
 .section-button {
     border: 1px solid #dadada;
+
 }
 
 #button-section {
     border-bottom: 2px solid #dadada;
+
 }
 
 .task-section-title {
@@ -78,10 +86,14 @@ ul {
     width: 30px;
 }
 
+.fs-20 {
+    font-size: 20px;
+}
+
 .check {
     display: inline-block;
     color: green;
-    font-size: 25px;
+    /* font-size: 20px; */
     border: green solid 1px;
     border-radius: 50%;
     text-align: center;
@@ -89,9 +101,48 @@ ul {
     padding: 3px;
 }
 
+.cross {
+    display: inline-block;
+    color: red;
+    /* font-size: 20px; */
+    border: red solid 1px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+}
+
 .task {
-    font-size: 20px;
+    /* font-size: 20px; */
     padding: 10px;
     display: inline-block;
     line-height: 30px;
+}
+
+.tag {
+    /* display: inline-block; */
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.editorial {
+    background-color: #09a9ed;
+
+}
+
+.q1-goals {
+    background-color: #ab5de6;
+
+}
+
+.recruiting {
+    background-color: #2cc6ab
+}
+
+ul {
+    margin: 15px;
 }
