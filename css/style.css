@@ -47,7 +47,11 @@ main {
     border: none;
     border-radius: 7px;
     font-size: 18px;
+}
 
+.button:hover {
+    cursor: pointer;
+    opacity: 0.75;
 }
 
 #task-btn {
@@ -125,7 +129,6 @@ li {
 
 .q1-goals {
     background-color: #ab5de6;
-
 }
 
 .recruiting {
